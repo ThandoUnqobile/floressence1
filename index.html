@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floressence Gift Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Floressence Gift Shop — gifts, hampers, bento cakes, services.">
+</head>
+<body>
+  <header>
+    <h1>Floressence Gift Shop</h1>
+    <p>Your gift crafted with love and joy</p>
+  </header>
+
+  <div class="topbar">
+    <input id="search" placeholder="Search products, e.g. 'hamper', 'bento', 'roses'"/>
+  </div>
+
+  <main class="container">
+    <h2 class="section-title">Shop All</h2>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <aside class="cart-panel">
+    <h3>🛒 Your Cart</h3>
+    <ul id="cart-list" class="cart-list"></ul>
+    <div class="cart-total">
+      <span>Total:</span>
+      <span id="cart-total">R0</span>
+    </div>
+    <textarea id="note" class="note" placeholder="Add a note (color, message on cake, delivery area)"></textarea>
+    <input id="cust-name" class="note" placeholder="Your name (optional)"/>
+    <div class="checkout">
+      <button class="btn whatsapp" onclick="toWhatsApp()">Send via WhatsApp</button>
+    </div>
+    <p class="badge">Whatsapp: 071 800 8231 • Instagram: @floressence_gift_shop</p>
+  </aside>
+
+  <footer>
+    © Floressence Gift Shop — Made with love 💖
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
